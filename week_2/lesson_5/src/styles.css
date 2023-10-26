@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  padding: 0 20px;
+}
+
+img {
+  max-width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+h1,
+h2,
+h3 {
+  color: #231d3c;
+}
+
+h1 {
+  line-height: 48px;
+  margin: 0;
+  font-family: "Balsamiq Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+}
+
+i {
+  margin-top: 50px;
+}
+
+.container{
+  margin: 0 auto;
+  width: 600px;
+}
+.mountain-sun {
+  color: #9771f3;
+  font-size: 200px;
+}
+
+.person-hiking {
+  color: #fab005;
+  font-size: 30px;
+}
+
+.pine-tree {
+  color: #2d6008;
+  font-size: 80px;
+  margin-left: 10px;
+}
