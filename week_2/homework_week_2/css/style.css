@@ -51,6 +51,15 @@ i {
   text-align: center;
 }
 
+.day-1:hover,
+.day-2:hover,
+.day-3:hover,
+.day-4:hover,
+.day-5:hover {
+  transform: scale(1.2);
+}
+
+
 .five-day-forecast p {
   font-size: 20px;
 }
