@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Add Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet" />
+    <!-- Enable Font Awesome Icons -->
+    <script
+      src="https://kit.fontawesome.com/2c9d00776f.js"
+      crossorigin="anonymous"></script>
+    <!-- Add Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous" />
+    <!-- Add custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Weather Watch</title>
+  </head>
+
+  <body>
+    <div class="container auto p-3">
+      <div class="card m-3">
+        <div class="card-body">
+          <h1 class="heading text-center m-4">Weather Watch</h1>
+          <div class="search-bar col-6">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter a city" />
+              <button
+                class="btn btn-outline-secondary search-btn"
+                type="button"
+                id="search-btn">
+                Search
+              </button>
+            </div>
+          </div>
+          <div class="current-conditions col-8 mt-5 mb-5">
+            <div class="row">
+              <div class="col-7">
+                <h2>San Antonio</h2>
+              </div>
+              <div class="col">
+                <h2>81° F</h2>
+              </div>
+              <div class="col">
+                <h2><i class="fa-solid fa-cloud cloud-icon"></i></h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-7">
+                <p class="day">Tuesday</p>
+              </div>
+              <div class="col">
+                <p class="conditions">Precipitation:</p>
+              </div>
+              <div class="col">
+                <p class="conditions">23%</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-7">
+                <p class="date">October 24</p>
+              </div>
+              <div class="col">
+                <p class="conditions">Humidity:</p>
+              </div>
+              <div class="col">
+                <p class="conditions">77%</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-7">
+                <p class="time">6:53pm</p>
+              </div>
+              <div class="col">
+                <p class="conditions">Wind:</p>
+              </div>
+              <div class="col">
+                <p class="conditions">13 mph</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="five-day-forecast m-5">
+            <div class="row row-cols-5">
+              <div class="col">
+                <div class="card day-1">
+                  <div class="card-body">
+                    <div class="card-header mb-3">Wed</div>
+                    <p class="card-text">
+                      <i class="fa-solid fa-cloud-sun-rain"></i>
+                    </p>
+                    <p class="card-text">86°</p>
+                    <p class="card-text">72°</p>
+                    <p class="card-text">40%</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card day-2">
+                  <div class="card-body">
+                    <div class="card-header mb-3">Thurs</div>
+                    <p class="card-text">
+                      <i class="fa-solid fa-cloud-sun-rain"></i>
+                    </p>
+                    <p class="card-text">84°</p>
+                    <p class="card-text">73°</p>
+                    <p class="card-text">98%</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card day-2">
+                  <div class="card-body">
+                    <div class="card-header mb-3">Fri</div>
+                    <p class="card-text">
+                      <i class="fa-solid fa-cloud-bolt"></i>
+                    </p>
+                    <p class="card-text">84°</p>
+                    <p class="card-text">72°</p>
+                    <p class="card-text">88%</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card day-3">
+                  <div class="card-body">
+                    <div class="card-header mb-3">Sat</div>
+                    <p class="card-text">
+                      <i class="fa-solid fa-cloud-sun"></i>
+                    </p>
+                    <p class="card-text">84°</p>
+                    <p class="card-text">72°</p>
+                    <p class="card-text">40%</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card day-3">
+                  <div class="card-body">
+                    <div class="card-header mb-3">Sun</div>
+                    <p class="card-text">
+                      <i class="fa-solid fa-cloud-sun"></i>
+                    </p>
+                    <p class="card-text">85°</p>
+                    <p class="card-text">46°</p>
+                    <p class="card-text">64%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

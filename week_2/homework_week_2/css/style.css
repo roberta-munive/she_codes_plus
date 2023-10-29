@@ -1,0 +1,74 @@
+body {
+  font-family: "Balsamiq Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+i {
+  color: #7aa5d2;
+}
+
+.card,
+.day-1,
+.day-2,
+.day-3,
+.day-4,
+.day5 {
+  border: 2px solid #d3d6db;
+  border-radius: 10px;
+}
+
+.card-header {
+  border: 1px solid #d3d6db;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.conditions {
+  font-size: 20px;
+}
+
+.current-conditions,
+.five-day-forecast {
+  display: block;
+  margin: 0 auto;
+}
+
+.current-conditions h2 {
+  margin-bottom: 18px;
+}
+
+.day,
+.date,
+.time {
+  font-size: 22px;
+}
+
+.day-1,
+.day-2,
+.day-3,
+.day-4,
+.day-5 {
+  text-align: center;
+}
+
+.five-day-forecast p {
+  font-size: 20px;
+}
+
+.row p {
+  line-height: 15px;
+}
+.search-bar {
+  display: block;
+  margin: 0 auto;
+}
+
+.search-btn {
+  font-weight: 400;
+  transition: all 150ms ease-in-out;
+}
+
+.search-btn:hover {
+  background-color: #7aa5d2;
+  border-color: #47555e;
+}
