@@ -49,6 +49,7 @@ i {
 .day-4,
 .day-5 {
   text-align: center;
+  transition: all 100ms ease-in-out;
 }
 
 .day-1:hover,
