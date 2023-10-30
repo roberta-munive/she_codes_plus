@@ -1,18 +1,14 @@
 body {
   font-family: "Balsamiq Sans", sans-serif;
   font-family: "Roboto", sans-serif;
+  background: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
 
 i {
-  color: #7aa5d2;
+  color: #38598b;
 }
 
-.card,
-.day-1,
-.day-2,
-.day-3,
-.day-4,
-.day5 {
+.card {
   border: 2px solid #d3d6db;
   border-radius: 10px;
 }
@@ -43,23 +39,14 @@ i {
   font-size: 22px;
 }
 
-.day-1,
-.day-2,
-.day-3,
-.day-4,
-.day-5 {
+.day-card {
   text-align: center;
-  transition: all 100ms ease-in-out;
+  transition: all 100ms ease;
 }
 
-.day-1:hover,
-.day-2:hover,
-.day-3:hover,
-.day-4:hover,
-.day-5:hover {
+.day-card:hover {
   transform: scale(1.2);
 }
-
 
 .five-day-forecast p {
   font-size: 20px;
@@ -74,6 +61,8 @@ i {
 }
 
 .search-btn {
+  border: 1px solid #38598b;
+  color: #38598b;
   font-weight: 400;
   transition: all 150ms ease-in-out;
 }
@@ -81,4 +70,8 @@ i {
 .search-btn:hover {
   background-color: #7aa5d2;
   border-color: #47555e;
+}
+
+.weather-watch-card-body {
+  background: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 }
