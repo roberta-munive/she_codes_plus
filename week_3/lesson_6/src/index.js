@@ -1,7 +1,7 @@
-let weather1 = {};
-console.log(weather1);
+let weather = {};
+console.log(weather);
 
-let weather = { temperature: 43, humidity: 87 };
+weather = { temperature: 43, humidity: 87 };
 console.log(weather);
 
 console.log(`humidity: ${weather.humidity}`);
@@ -21,7 +21,7 @@ let forecast = [
   { day: "Thursday", temperature: 68 },
   { day: "Friday", temperature: 73 },
   { day: "Saturday", temperature: 81 },
-  { day: "Sunday", temperature: 82 }
+  { day: "Sunday", temperature: 82 },
 ];
 
 console.log(forecast);
