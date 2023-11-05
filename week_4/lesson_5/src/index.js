@@ -38,7 +38,7 @@ function isWindyWithUnit(speed, unit){
 }
 
 wind_speed = prompt("What is the wind speed?");
-let unit = prompt("What is the unit (imperial or metric)");
+let unit = prompt("What is the unit (imperial or metric)?");
 unit = unit.toLowerCase();
 if (isWindyWithUnit(wind_speed, unit)){
   alert("It is windy");
