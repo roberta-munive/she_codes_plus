@@ -9,6 +9,30 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous" />
     <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <style>
+      label {
+        display: block;
+      }
+
+      .form-group {
+        margin: 20px;
+      }
+
+      .login-container {
+        border: 2px solid #9b9a9c;
+        border-radius: 10px;
+        margin: 20px auto;
+        max-width: 600px;
+        padding: 20px;
+      }
+
+      .login-header {
+        font-size: 32px;
+        font-weight: 700;
+        margin: 30px;
+        text-align: center;
+      }
+    </style>
   </head>
 
   <body>
@@ -57,6 +81,28 @@
           <input type="submit" value="Login" class="btn btn-primary" />
         </form>
       </div>
+    </div>
+
+    <div class="login-container">
+      <h3 class="login-header">Welcome back</h3>
+      <form class="login-form">
+        <div class="form-group">
+          <label for="email">Enter your email address</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            autocomplete="off"
+            required />
+        </div>
+        <div class="form-group">
+          <label for="password-2">Enter your password</label>
+          <input type="password" name="password-2" id="password-2" required />
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Login" />
+        </div>
+      </form>
     </div>
 
     <script src="src/index.js"></script>
